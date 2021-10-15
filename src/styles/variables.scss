@@ -1,0 +1,196 @@
+$primary_color: #6BCFC3;
+$secondary_color: #3ea49d;
+$white_alpha: rgba(255, 255, 255, .8);
+$blue_register: #142A3F;
+$lima: #BEF763;
+$area_register: rgba(136, 231, 236, 0.52);
+$blue_text: #00527B;
+$gray_text: #A09F9F;
+$gray_light: rgba(128, 128, 128, 0.2);
+$gray: rgba(128, 128, 128, 0.5);
+$green_default: #6ACFC2;
+$green_default_shadow: #52B1A5;
+$dark_blue: #2b3643;
+$blue_link: #5b9bd1;
+$pay_dual: #BEF763;
+$pay_provider: #1EF4F9;
+$pay_buyer: #7DEF87;
+$red_error: rgba(255, 22, 22, 0.84);
+$color_black: #000;
+$color_white: #ffffff;
+
+/*****/
+
+
+/*Colores primarios*/
+
+
+/*****/
+
+
+/*Color principal - color header - titulos*/
+
+$color_principal: #0ED9A9;
+
+/*Color header barra menu comprador*/
+
+$color_comprador: #303C48;
+
+/*Color para boton principal CTA*/
+
+$color_button_principal: #36CCDA;
+
+/*Hover para el boton principal CTA*/
+
+$hover_button_principal: #30B7C3;
+
+/*Color para el boton secundario CTA*/
+
+$color_button_secundario: #0CC9F1;
+
+/*Hover para el boton secundario*/
+
+$hover_button_secundario: #29A1E1;
+
+/* Color activo el boton */
+
+$active_button_secundario: #1f7fcb;
+
+/*Texto en bloque subtitulos, filtros, textos botones y ventana de ayuda Tip*/
+
+$color_titles_general: #57606B;
+$background_hover_success: #25bc70;
+
+/*****/
+
+
+/*Colores secundarios*/
+
+
+/*****/
+
+
+/*Color para el menu del proveedor*/
+
+$color_menu_proveedor: #C4D0D9;
+
+/*Color nuevo menu del proveedor*/
+
+$color_new_menu_proveedor: #e3eaf4;
+
+/*Listas y  otros textos*/
+
+$color_other_text: #6b6f75;
+
+/*Titulos encabezados y logos*/
+
+$color_head_logo: #111210;
+
+/*Notificacion exito, formularios de éxito, viñetas, iconos y sliders*/
+
+$color_success: #00D664; //anterior #42DA8D;
+
+/*Notificaciones, formularios y iconos error*/
+
+$color_error: #FF584C;
+
+/*color general de los elemetos del proveedor*/
+
+$color_elements_provider: #36aeea;
+
+/*Color element other*/
+
+$color_element_other: #b9c6d7;
+
+/*Color menu*/
+
+$color_menu_provider_new: #4d637b;
+
+/*color texto dropdown*/
+
+$color_text_dropdown: #3f4f62;
+
+/*Active caja de texto*/
+
+$color_text_field: #A7B6C1;
+
+/*Fondo de error para una caja de texto*/
+
+$background_text_field: #FEEFEF;
+
+/*background input cuando hay esta en focus*/
+
+$background_text_field1: #F4F8FA;
+
+/*background de seguir proceso*/
+
+$background_follow_process: #3952b6;
+
+/*background de seguir empresa*/
+
+$background_keep_company: #8dc84a;
+
+/*background de otorgar recomendación*/
+
+$background_grant_recommendation: #ffc700;
+
+/*background de solicitar recomendación*/
+
+$background_recommendation_requested: #f47b10;
+$background_recommendation_request: #ffad21;
+$color_dual: #8f7ee8;
+$color_dual2: #47438f;
+$font_size_11: 11px;
+$font_size_10: 10px;
+$font_size_principal: 12px;
+$font_size_principal2: 13px;
+$font-gotham-light: "gotham_light";
+$font-gotham-bold: "gotham_bold";
+$color_background-input: #eff4f7;
+$color_subtitle: #858688;
+$color_behind: #79D4BF;
+$color_behind_2: #b6eadd;
+$color_register: #0bbb8c;
+$fond_contorno: #f1f8ff;
+$color_title_1: #71797c;
+$color_subtitle_1: #8e9293;
+$color-cancel: #2aa2e1;
+$color_text: #5c606b;
+$color-label: #b6bbbe;
+$color_1: #d4d9df;
+$color_2: #afb0b2;
+$color_3: #565e69;
+$color_4: #5a5e67;
+$color_5: #5a626d;
+$color_6: #9fadb6;
+$color_7: #5a6672;
+$color_8: #636a72;
+$color_9: #58aaff;
+$color_10: #4c4c4c;
+$color_11: #d2d9df;
+$color_12: #c7d0d7;
+
+/*Color para el border gris claro*/
+
+$color_13: #DAE4ED;
+$color_border_general: #d6dbdf;
+$background_color_1: #f5f6fa;
+$background_menu_left_buyer: #364150;
+$background_menu_left_provider: #4d637b;
+$background_color_general: #e9ebee;
+$color_green_claro: #00D664;
+//landing
+$color_green_landing:#30e7a3;
+$f-landing: 16px;
+$c-button: #f4f8fb;
+$c-black: #152a3f;
+$c-dual: #988ADD;
+$c-dualOscuro: #7360B3;
+$f-normal: 14px;
+
+/* colores de tiempo en procesos */
+
+$green:#23B680;
+$orange:#F47B10;
+$yellow:#C9A520;
+$red:red;

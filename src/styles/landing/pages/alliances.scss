@@ -1,0 +1,63 @@
+.main-content {
+    padding-top: 75px;
+    @media (min-width: 768px) and (max-width: 992px) {
+        padding-top: 140px;
+    }
+}
+
+.section-page_wrap {
+    margin-top: 30px;
+    @media (min-width: 640px) {
+        margin-top: 60px;
+    }
+}
+
+.img-full-width {
+    max-width: 100%;
+}
+
+$blue: #98e8c6;
+$blue2: rgba($blue, .5);
+.alliances-banner_wrap {
+    margin-left:-117px;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00c481+35,ffffff+100&1+0,0.6+23,0.5+35,0.45+45,0.1+58,0+69,1+100 */
+    background: -moz-linear-gradient(-45deg, rgba(0, 196, 129, 1) 0%, rgba(0, 196, 129, 0.6) 23%, rgba(0, 196, 129, 0.5) 35%, rgba(39, 205, 148, 0.45) 45%, rgba(90, 217, 173, 0.1) 58%, rgba(133, 227, 194, 0) 69%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(0, 196, 129, 1) 0%, rgba(0, 196, 129, 0.6) 23%, rgba(0, 196, 129, 0.5) 35%, rgba(39, 205, 148, 0.45) 45%, rgba(90, 217, 173, 0.1) 58%, rgba(133, 227, 194, 0) 69%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(0, 196, 129, 1) 0%, rgba(0, 196, 129, 0.6) 23%, rgba(0, 196, 129, 0.5) 35%, rgba(39, 205, 148, 0.45) 45%, rgba(90, 217, 173, 0.1) 58%, rgba(133, 227, 194, 0) 69%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00c481', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}
+
+$blue: #98e8c6;
+$blue2: rgba($blue, .5);
+.alliances-banner_inner {
+    display: flex;
+    align-items: center;
+    min-height: 345px;
+    //background-image: radial-gradient($blue2 1px, transparent 0px);
+    //background-size: 18px 22px;
+    position: relative;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /*div[class^="col-"] {
+            align-items: center;
+        }*/
+    }
+}
+
+@media (min-width: 992px) {
+    .alliances-banner_wrap {
+        border-radius: 0 0 50% 50%;
+    }
+    .alliances-banner_inner {
+        padding-top: 7%;
+        padding-bottom: 12%;
+    }
+}

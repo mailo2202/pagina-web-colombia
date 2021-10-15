@@ -1,0 +1,198 @@
+.color-vertodos{
+  color :#31D274 !important;
+}
+.color-abiertos{
+  color :#359CDF !important;
+}
+.color-cerrados{
+  color :#9E44BF !important;
+}
+.color-porconfirmar{
+  color :#FEDB07 !important;
+}
+.color-programados{
+  color :#EA4D3C !important;
+}
+.color-recurrentes{
+  color :#F89F11 !important;
+}
+#buscador, #switch-com-pro{
+  margin-top: 15px;
+  color: #6BCFC3;
+}
+#buscador li input{
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+.bootstrap-switch-handelbay{
+  color: #fff;
+  background-color: #6BCFC3;
+}
+
+.background-handelbay{
+  background-color: rgb(91, 221, 183);
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important
+}
+.background-handelbay a{
+  color: #FFF;
+}
+.lupa{
+  padding: 0px;
+  border: none;
+  background: #6BCFC3;
+  position: relative;
+  left: 5px;
+  color: #fff;
+}
+#buscador input{
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+#menu-buscador .menu-title{
+  display: block;
+  font-weight: bold;
+  color: #b4bcc8;
+  margin: 5px;
+}
+
+.sidebar-search
+.page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active.open > a {
+  background: #6BCFC3;
+  border-top-color: transparent;
+  color: #000;
+}
+
+#menu-buscador input{
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+.ayuda{
+  padding: 12px;
+}
+
+.input-group-switch{
+  border-color: transparent !important;
+  background: transparent !important;
+  color:#6BCFC3;
+}
+.estadoCuenta{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.page-header.navbar .page-logo .logo-default{
+  margin: 0;
+}
+.btn-handelbay{
+  background: #6BCFC3;
+  color:#FFF;
+}
+.btn-historial{
+  background: #6B7889;
+  color:#FFF;
+}
+#menu-pagos-pen{
+  margin-bottom: 10px;
+  color: #b4bcc8;
+}
+.badge-sidebar-pago{
+  color: #FFF;
+  background-color: #2C3542;
+  font-weight: bold;
+}
+.overflow{
+  overflow: hidden;
+}
+.menu-comprador {
+    text-align: center;
+}
+.menu-comprador{
+  position: relative;
+  padding: 0px 20px;
+  background-color: #6BCFC3;
+  margin: -25px -20px 0 -20px;
+}
+.menu-comprador ul {
+    display: inline-block !important;
+    float: none;
+}
+.menu-comprador .nav > li > a{
+    color: #FFF;
+    font-size: 14px;
+    text-shadow: none;
+    font-style: italic;
+}
+
+.menu-comprador .nav > li > a:hover{
+    text-decoration: none;
+    background-color: #2b3643;
+}
+.menu-comprador .nav > li > a:active{
+    text-decoration: none;
+}
+.menu-comprador .nav > li > a:focus{
+    text-decoration: none;
+}
+
+.table tr.heading > th {
+    background-color: #E1EAEF !important;
+}
+
+.panel-heading-handelbay{
+  color: #333333;
+  background-color: #E1EAEF;
+  border-color: #E1EAEF;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+
+.tamano-ico{
+  font-size: 2em !important;
+}
+
+/*
+  switch Proveedor-Comprador
+*/
+
+.onoffswitch {
+    position: relative; width: 50px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 27px; padding: 0; line-height: 27px;
+    border: 2px solid #CCCCCC; border-radius: 27px !important;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 27px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 33px;
+    border: 2px solid #CCCCCC; border-radius: 27px !important;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #6BCFC3;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #6BCFC3;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+.identificadorItem{
+  text-transform: capitalize !important;
+}

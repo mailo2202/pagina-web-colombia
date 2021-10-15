@@ -1,0 +1,255 @@
+@import "variables";
+@media (max-width: 992px) {
+	.center {
+		text-align: center !important;
+	}
+	.page-header.navbar .page-logo {
+		float: inherit !important;
+	}
+	.logo-menu-media {
+		width: 30%;
+		margin: 0 auto;
+		//margin-top: 19px;
+	}
+	.page-sidebar-menu {
+		width: 100%;
+		margin-top: 100px !important;
+		min-height: inherit !important;
+		height: 180px !important;
+		overflow-y: scroll !important;
+	}
+	.logo-menu-collapse {
+		width: 30%;
+		margin: 0 auto;
+	}
+	.page-header-inner #buscador .search {
+		margin-top: 0 !important;
+	}
+	#buscador .search-text > input {
+		background: #2b3643 !important;
+	}
+	.sticky {
+		left: 45px !important;
+	}
+	.contend_tabs_search .tabs-search {
+		padding: 0 !important;
+	}
+	.page-content-wrapper {
+		margin-top: 109px;
+	}
+	.provider_body .page-header.navbar {
+		padding: 0;
+		.page-header-inner .page-logo {
+			margin: 0;
+		}
+		#buscador {
+			padding: 0 10px;
+		}
+	}
+	.page-sidebar-menu li a.logo-menu-collapse {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	#suppliers_modal,
+	#summary_process_modal,
+	#terms_conditions_modal,
+	#modal_approval,
+	#modal_user_type {
+		max-width: 900px !important;
+		width: auto !important;
+	}
+	.modal_help,
+	.modal_payment,
+	#modal_payment_register,
+	#manage_receipt_payment,
+	#view-products,
+	#modal_abstract_plan,
+	#modal_change_plan,
+	#modal_notice_change_plan,
+	#load-products-excel,
+	#load-reqproducts-excel,
+	#load-upload-quote-excel,
+	#modal_plan_register {
+		.modal-dialog {
+			width: 70% !important;
+		}
+	}
+	#modal_payment_register,
+	#manage_receipt_payment,
+	#modal_change_plan {
+		.modal-dialog-pays,
+		.modal_downgrade {
+			max-width: 550px !important;
+			width: auto !important;
+		}
+	}
+	#modal_confirm,
+	#modal_payment_no_company {
+		.modal-dialog {
+			max-width: 350px !important;
+			width: auto !important;
+		}
+	}
+	#modal_information_gnrl {
+		width: 1100px !important;
+	}
+	#modal_new_recurrence {
+		max-width: 810px !important;
+		width: auto !important;
+	}
+	#register-initial {
+		max-width: 630px !important;
+		width: auto !important;
+	}
+}
+
+@media (max-width: 768px) {
+	/*Buscador harbors*/
+	/*Tabs buscador harbors*/
+	.tabs_search-harbors {
+		top: 53% !important;
+	}
+	.contend_tabs_search .tabs-search .elements--search .img---img {
+		height: initial !important;
+	}
+	.list--option--tabs > ul > li {
+		width: 100%;
+	}
+	.is_commercial_modal .modal-content .modal-body.register-initial {
+		padding: 18px 0px 10px 0px !important;
+		.row {
+			margin: 0;
+		}
+	}
+}
+
+@media (min-width: 991px) {
+	.nopadding-left {
+		padding-left: 0;
+	}
+	.nopadding-right {
+		padding-right: 0;
+	}
+	.page-sidebar ul.page-sidebar-menu {
+		width: 235px;
+	}
+	.margin--bottom {
+		margin-bottom: 12px;
+	}
+}
+
+/*Modulo de mensajes*/
+
+@media (min-width: 769px) {
+	.nopadding-right-message {
+		padding-right: 0;
+	}
+	.nopadding-left-message {
+		padding-left: 0;
+	}
+	.tabs_message_view .border-message {
+		border-left: 1px solid $color_border_general;
+	}
+	.padding_contain_left {
+		padding-left: 7.5px;
+	}
+	.padding_contain_right {
+		padding-right: 7.5px;
+	}
+}
+
+@media (max-width: 480px) {
+	.page-sidebar-menu {
+		margin-top: 109px !important; //149px!important;
+	}
+	.page-header.navbar .top-menu .navbar-nav {
+		margin: 0 7px !important;
+	}
+	#buscador .search .icon-search {
+		display: none;
+	}
+	#dual-switch {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1092px) {
+	.page-header.navbar .top-menu .navbar-nav {
+		margin-right: 0 !important;
+	}
+}
+
+//Medias targetas planes
+@media (max-width: 1282px) {
+	.my_account .items .planes .item_planes {
+		.filter-item.select {
+			margin-top: 45px;
+		}
+	}
+	.my_account .items .planes {
+		margin-bottom: 40px !important;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 991px) {
+	.account .my_account .planes .item_planes {
+		width: 31.4% !important;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 586px) {
+	.account .my_account .planes .item_planes {
+		width: 47.5% !important;
+	}
+	.my_account .items .planes {
+		text-align: center;
+	}
+}
+
+@media (max-width: 586px) and (min-width: 450px) {
+	.account .planes .item_planes {
+		width: 50% !important;
+		float: inherit !important;
+	}
+	.company_profile {
+		.content-company-profile {
+			padding: 0 !important;
+		}
+	}
+	.users {
+		.content-users {
+			padding: 0 !important;
+		}
+	}
+	.button_step {
+		width: 90% !important;
+	}
+	.bs-wizard > .bs-wizard-step > .progress {
+		margin: 44px 0 !important;
+	}
+}
+
+@media (max-width: 450px) {
+	.company_profile {
+		.content-company-profile {
+			padding: 0 !important;
+		}
+	}
+	.users {
+		.content-users {
+			padding: 0 !important;
+		}
+	}
+	.bs-wizard > .bs-wizard-step > .progress {
+		margin: 44px 0 !important;
+	}
+	.button_step {
+		width: 90% !important;
+	}
+	.account .planes .item_planes {
+		width: 100% !important;
+		margin: 10px 0 !important;
+	}
+}

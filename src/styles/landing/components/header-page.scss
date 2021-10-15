@@ -1,0 +1,72 @@
+.header-page {
+    &.hasIcon {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        @media (min-width: 640px) {
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+    }
+}
+
+.header-page_bg {
+    img {
+        width: 100px;
+        object-fit: cover;
+    }
+}
+
+.header-page_title,
+.header-page_subtitle {
+    &.active {
+        position: relative;
+        margin-bottom: 30px;
+        &.color-black {
+            &::after {
+                background-color: $c-black;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -14px;
+            left: 0;
+            background-color: $color_green_landing;
+            width: 30px;
+            height: 10px;
+            display: inline-block;
+            border-radius: 15px;
+        }
+    }
+}
+
+.header-page_title,
+.header-page_subtitle {
+    font-size: 28px;
+    @media (min-width: 640px) {
+        font-size: 32px;
+    }
+}
+
+.header-page_title {
+    margin-bottom: 0;
+    color: $c-black;
+}
+
+.header-page_subtitle {
+    color: $c-black;
+    font-family: $font-gotham-bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-page_action {
+    .header-page_button {
+        @extend .btn-handelbay-success;
+        white-space: normal;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

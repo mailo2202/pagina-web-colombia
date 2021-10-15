@@ -1,0 +1,106 @@
+// Indicators
+.indicators_items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.indicators_items-item {
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 20px 25px;
+    border-top: 1px solid #cece;
+    text-align: center;
+    box-sizing: border-box;
+    &.background-1 {
+        background: $color_green_claro;
+    }
+    &.background-2 {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,265792+6,309bd0+69,207cca+99,2989d8+100,7db9e8+100 */
+        background: #1e5799;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #1e5799 0%, #265792 6%, #309bd0 69%, #207cca 99%, #2989d8 100%, #7db9e8 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #1e5799 0%, #265792 6%, #309bd0 69%, #207cca 99%, #2989d8 100%, #7db9e8 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #1e5799 0%, #265792 6%, #309bd0 69%, #207cca 99%, #2989d8 100%, #7db9e8 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+        /* IE6-9 */
+    }
+}
+
+$blue: #98e8c6;
+$blue2: rgba($blue, .5);
+.indicators_items-item_bg {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 43px;
+    padding-bottom: 15px;
+    line-height: 0;
+    background-image: radial-gradient($blue2 1px, transparent 0px);
+    background-size: 18px 22px;
+    .bg {
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        background-size: 100px;
+        background-position: center;
+        display: inline-block;
+    }
+}
+
+.indicators_items-item_caption {
+    .caption_wrap {
+        display: flex;
+        justify-content: center;
+        .currency,
+        .count,
+        .unidad {
+            font-size: 50px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .count {
+            @include ellipsis;
+            letter-spacing: 0px;
+        }
+        .unidad {
+            padding-left: 8px;
+        }
+    }
+    .description {
+        font-size: 22px;
+        color: #fff;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 480px) {
+    // >=480px
+    .indicators_items-item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    // >=640px
+    .indicators_items-item {
+        flex-basis: calc(100% / 3);
+        max-width: calc(100% / 3);
+    }
+}
+
+@media (min-width: 768px) {
+    // >=768px
+    .indicators_items {
+        flex-wrap: nowrap;
+    }
+    .indicators_items-item {
+        flex-basis: 25%;
+        max-width: 25%;
+        border: 0;
+    }
+}

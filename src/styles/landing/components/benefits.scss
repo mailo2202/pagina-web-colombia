@@ -1,0 +1,62 @@
+.benefits_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.benefits_item {
+    flex-basis: calc(100% / 3);
+    padding: 0 15px 65px 15px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.benefits_header {
+    padding: 0 40px 0px 50px;
+    img {
+        width: 100%;
+        max-width: 200px;
+        object-fit: contain;
+    }
+}
+
+.benefits_body {
+    color: $c-black;
+}
+
+.benefits_body-title {
+    .title {
+        font-family: $font-gotham-bold;
+        margin: 15px 0 30px 0;
+    }
+}
+
+.benefits_footer {
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.benefits_footer-action {
+    @extend .btn-handelbay-success;
+    white-space: inherit;
+    padding: 7px 35px;
+}
+
+@media (max-width: 768px) {
+    .benefits_items {
+        flex-wrap: wrap;
+    }
+    .benefits_item {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .benefits_item {
+        flex-basis: 100%;
+    }
+}

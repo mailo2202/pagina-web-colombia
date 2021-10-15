@@ -1,0 +1,354 @@
+/* == HEADER == */
+
+.header {
+    .navbar-default {
+        background: rgba(35, 199, 130, 1);
+        background: -moz-linear-gradient( left, rgba(35, 199, 130, 1) 0%, rgba(35, 199, 130, 1) 1%, rgba(35, 199, 130, 1) 26%, rgba(97, 233, 122, 1) 57%, rgba(97, 233, 122, 1) 100%);
+        background: -webkit-gradient( left top, right top, color-stop(0%, rgba(35, 199, 130, 1)), color-stop(1%, rgba(35, 199, 130, 1)), color-stop(26%, rgba(35, 199, 130, 1)), color-stop(57%, rgba(97, 233, 122, 1)), color-stop(100%, rgba(97, 233, 122, 1)));
+        background: -webkit-linear-gradient( left, rgba(35, 199, 130, 1) 0%, rgba(35, 199, 130, 1) 1%, rgba(35, 199, 130, 1) 26%, rgba(97, 233, 122, 1) 57%, rgba(97, 233, 122, 1) 100%);
+        background: -o-linear-gradient( left, rgba(35, 199, 130, 1) 0%, rgba(35, 199, 130, 1) 1%, rgba(35, 199, 130, 1) 26%, rgba(97, 233, 122, 1) 57%, rgba(97, 233, 122, 1) 100%);
+        background: -ms-linear-gradient( left, rgba(35, 199, 130, 1) 0%, rgba(35, 199, 130, 1) 1%, rgba(35, 199, 130, 1) 26%, rgba(97, 233, 122, 1) 57%, rgba(97, 233, 122, 1) 100%);
+        background: linear-gradient( to right, rgba(35, 199, 130, 1) 0%, rgba(35, 199, 130, 1) 1%, rgba(35, 199, 130, 1) 26%, rgba(97, 233, 122, 1) 57%, rgba(97, 233, 122, 1) 100%);
+        //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#23c782', endColorstr='#61e97a', GradientType=1);
+        /* background-image: url('../images/handelbay_img/handelbay_fondo_menu.png'); */
+        border-radius: 0;
+        margin: 0;
+        border: 0;
+        -webkit-box-shadow: -1px 0px 17px -2px rgba(0, 0, 0, 0.65);
+        -moz-box-shadow: -1px 0px 17px -2px rgba(0, 0, 0, 0.65);
+        box-shadow: -1px 0px 17px -2px rgba(0, 0, 0, 0.65);
+    }
+    // modifiers
+    &#handelbay-bacground-none {
+        .navbar-default {
+            background: none;
+            box-shadow: none;
+        }
+    }
+    &#handelbay-background-prueba-gratis {
+        .navbar-default {
+            background: rgba(35, 67, 128, 1);
+            background: -moz-linear-gradient( left, rgba(35, 67, 128, 1) 0%, rgba(35, 67, 128, 1) 28%, rgba(50, 189, 241, 1) 76%, rgba(50, 189, 241, 1) 100%);
+            background: -webkit-gradient( left top, right top, color-stop(0%, rgba(35, 67, 128, 1)), color-stop(28%, rgba(35, 67, 128, 1)), color-stop(76%, rgba(50, 189, 241, 1)), color-stop(100%, rgba(50, 189, 241, 1)));
+            background: -webkit-linear-gradient( left, rgba(35, 67, 128, 1) 0%, rgba(35, 67, 128, 1) 28%, rgba(50, 189, 241, 1) 76%, rgba(50, 189, 241, 1) 100%);
+            background: -o-linear-gradient( left, rgba(35, 67, 128, 1) 0%, rgba(35, 67, 128, 1) 28%, rgba(50, 189, 241, 1) 76%, rgba(50, 189, 241, 1) 100%);
+            background: -ms-linear-gradient( left, rgba(35, 67, 128, 1) 0%, rgba(35, 67, 128, 1) 28%, rgba(50, 189, 241, 1) 76%, rgba(50, 189, 241, 1) 100%);
+            background: linear-gradient( to right, rgba(35, 67, 128, 1) 0%, rgba(35, 67, 128, 1) 28%, rgba(50, 189, 241, 1) 76%, rgba(50, 189, 241, 1) 100%);
+            //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#234380', endColorstr='#32bdf1', GradientType=1);
+        }
+        .submenu {
+            li {
+                a {
+                    color: $color_elements_provider !important;
+                    &:hover {
+                        color: $color_elements_provider !important;
+                    }
+                }
+            }
+        }
+    }
+    &#dual {
+        .navbar-default {
+            background: rgba(152, 138, 221, 1);
+            background: -moz-linear-gradient(left, rgba(152, 138, 221, 1) 0%, rgba(152, 138, 221, 1) 29%, rgba(115, 96, 179, 1) 56%, rgba(115, 96, 179, 1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(152, 138, 221, 1)), color-stop(29%, rgba(152, 138, 221, 1)), color-stop(56%, rgba(115, 96, 179, 1)), color-stop(100%, rgba(115, 96, 179, 1)));
+            background: -webkit-linear-gradient(left, rgba(152, 138, 221, 1) 0%, rgba(152, 138, 221, 1) 29%, rgba(115, 96, 179, 1) 56%, rgba(115, 96, 179, 1) 100%);
+            background: -o-linear-gradient(left, rgba(152, 138, 221, 1) 0%, rgba(152, 138, 221, 1) 29%, rgba(115, 96, 179, 1) 56%, rgba(115, 96, 179, 1) 100%);
+            background: -ms-linear-gradient(left, rgba(152, 138, 221, 1) 0%, rgba(152, 138, 221, 1) 29%, rgba(115, 96, 179, 1) 56%, rgba(115, 96, 179, 1) 100%);
+            background: linear-gradient(to right, rgba(152, 138, 221, 1) 0%, rgba(152, 138, 221, 1) 29%, rgba(115, 96, 179, 1) 56%, rgba(115, 96, 179, 1) 100%);
+            //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#988add', endColorstr='#7360b3', GradientType=1);
+        }
+        .submenu {
+            li {
+                a {
+                    color: $c-dual !important;
+                    &:hover {
+                        color: $c-dual !important;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-toggle {
+        padding: 12px 10px;
+        margin-top: 19px;
+        margin-right: 70px;
+        margin-bottom: 8px;
+    }
+    .navbar-brand {
+        background-color: transparent;
+    }
+    .navbar {
+        min-height: 60px;
+    }
+    .handelbay-container-fluid {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .navbar-header-logo {
+        a {
+            display: inline-table;
+        }
+        img {
+            width: 130px;
+            object-fit: cover;
+        }
+    }
+    .handelbay-navbar-collapse {
+        .handelbay-navbar-left {
+            li {
+                &.active {
+                    a {
+                        span {
+                            &.han-sr-only {
+                                position: absolute;
+                                width: 35%;
+                                height: 1px;
+                                background: #fff;
+                                left: 0;
+                                right: 0;
+                                margin: 0 auto;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .handelbay-navbar-left {
+        li {
+            &:hover {
+                .submenu {
+                    display: block;
+                }
+            }
+            &.active {
+                a {
+                    font-family: $font-gotham-bold;
+                    background-color: transparent !important;
+                }
+            }
+            .navbar-nav_link {
+                //a
+                padding: 27px 10px;
+                color: $c-button;
+                text-transform: uppercase;
+                font-size: $f-normal;
+                &:hover {
+                    color: $c-button !important;
+                    font-family: $font-gotham-bold;
+                }
+            }
+            .logo-handelbay-img {
+                p {
+                    margin: 0;
+                }
+                img {
+                    width: 130px;
+                    object-fit: cover;
+                }
+                h1 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .handelbay-navbar-right {
+        &.navbar-right {
+            margin-right: 0px !important;
+        }
+        .navbar-right_item {
+            a {
+                color: $c-black !important;
+                font-size: 12px;
+                border-radius: 20px;
+                border: 1px solid $c-black;
+                padding: 7px 12px;
+                text-transform: uppercase;
+            }
+            // status
+            &.active {
+                a,
+                a:active,
+                a:hover {
+                    background-color: $c-black;
+                    color: $c-button !important;
+                    font-family: $font-gotham-bold;
+                    margin-right: 8px;
+                    outline: none;
+                }
+            }
+        }
+        .search-icon-landing {
+            display: block;
+            padding: 7px 15px;
+            margin-left: 15px;
+        }
+    }
+    .submenu {
+        display: none;
+        padding: 5px 10px;
+        position: absolute;
+        //top: 74px;
+        list-style: none;
+        background: #fff;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid $color_border_general;
+        border-top: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        z-index: 2;
+        li {
+            a {
+                color: $color_green_landing !important;
+                padding: 2px 15px;
+                display: inline-block;
+                font-weight: 700;
+                &:hover {
+                    color: $color_green_landing !important;
+                    font-family: $font-gotham-bold;
+                }
+            }
+        }
+    }
+}
+
+// search icon
+.search-icon-landing {
+    display: none;
+    background: #fff;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 20px;
+    padding: 4px 16px;
+    padding-top: 8px;
+    //position: fixed;
+    right: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    text-decoration: none;
+    &:hover {
+        background-color: #fff !important;
+    }
+    .icon {
+        color: $color_green_landing;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        .navbar-default {
+            padding-bottom: 15px;
+            .navbar-brand {
+                display: block !important;
+                height: 50px;
+                padding-top: 16px;
+                width: auto;
+            }
+        }
+        .handelbay-container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .navbar-header-logo {
+            a {
+                display: block;
+                padding: 5px;
+            }
+            .navbar-toggle {
+                background-color: #152a3f;
+                border: 0;
+                span.icon-bar {
+                    background-color: #f4f8fb;
+                }
+            }
+        }
+        .handelbay-navbar-collapse {
+            .handelbay-navbar-left {
+                li {
+                    &.active {
+                        a {
+                            span.han-sr-only {
+                                width: 40%;
+                            }
+                        }
+                    }
+                    .logo-handelbay-img {
+                        display: none;
+                    }
+                    .navbar-nav_link {
+                        padding: 15px 10px;
+                        display: inline-block;
+                    }
+                }
+            }
+            .handelbay-navbar-right {
+                li {
+                    a {
+                        top: 0;
+                        margin: 4px 10px;
+                    }
+                }
+            }
+        }
+        .handelbay-navbar-right {
+            li {
+                a {
+                    margin: 4px 10px;
+                }
+            }
+            .search-icon-landing {
+                display: none;
+            }
+        }
+        .search-icon-landing {
+            display: block;
+            position: fixed;
+            top: 17px;
+            margin: 0 !important;
+        }
+        .submenu {
+            top: 47px;
+            left: 0;
+            z-index: 9;
+            transform: none;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .handelbay-navbar-right,
+    .handelbay-navbar-left {
+        display: flex;
+        align-items: center;
+    }
+    .handelbay-navbar-right {
+        height: 75px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .handelbay-navbar-right .search-icon-landing {
+        position: fixed;
+        top: 17px;
+    }
+}
+
+@media (max-width: 1050px) and (min-width: 768px) {
+    header .navbar-default {
+        padding-bottom: 15px;
+    }
+    header .handelbay-navbar-collapse ul.handelbay-navbar-left>li>a {
+        padding: 15px 10px;
+    }
+    header .handelbay-navbar-collapse ul.handelbay-navbar-right li a {
+        top: 0;
+    }
+}

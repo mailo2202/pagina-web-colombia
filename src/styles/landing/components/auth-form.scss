@@ -1,0 +1,118 @@
+.form-valid {
+    margin: 35px 0;
+}
+
+.contact-form {
+    margin-bottom: 0;
+}
+
+.form-valid .form-group label,
+.linkhasaccount {
+    font-size: $f-normal !important;
+    color: $color_menu_provider_new;
+    font-weight: normal;
+}
+
+.form-valid .sendAction {
+    margin-bottom: 10px;
+    hr {
+        margin-bottom: 30px;
+    }
+}
+
+.linkhasaccount {
+    padding: 0 15px;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.form-valid input.floating,
+.form-valid select.floating {
+    outline: none;
+    width: 100%;
+    background-color: #ecf1f3;
+    padding: 5px 15px;
+    font-weight: normal;
+    height: 27px;
+}
+
+.form-valid textarea.floating {
+    outline: none;
+    width: 100%;
+    background-color: #ecf1f3;
+    padding: 5px 15px;
+    font-weight: normal;
+    height: 165px;
+    border-radius: 0!important;
+}
+
+.form-valid textarea.floating:invalid {
+    border: 1px solid #ff8e7a;
+}
+
+.form-valid input.floating:focus {
+    border: 1px solid #d9d9d9;
+}
+
+.form-valid input.floating:invalid {
+    border: 1px solid #ff8e7a;
+}
+
+.handelbay-modal .form-group {
+    margin-top: 20px;
+}
+
+.form-group-check .check_text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.form-group-check .check_text label {
+    font-size: 13px;
+    vertical-align: top;
+    color: #b3b9bb;
+    font-weight: 700;
+}
+
+.form-group-check p {
+    color: #b3b9bb;
+    font-size: $f-normal;
+    margin: 10px 0;
+}
+
+.form-group-check p strong {
+    color: $color_green_landing;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.auth-form_wrap {
+    @media(min-width: 992px) {
+        /*margin-right: 17%;
+        margin-left: 17%;*/
+    }
+}
+
+.auth-form_head {}
+
+.auth-form_head-title {
+    text-align: center;
+    .title {
+        font-size: $f-landing;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 1.4;
+    }
+}
+
+.auth-form_body {
+    text-align: center;
+    .form-group-check {
+        margin-bottom: 10px;
+    }
+}
+
+.auth-form_body-info {
+    font-size: $f-normal;
+}
