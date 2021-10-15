@@ -615,7 +615,7 @@ a.btn.no-margin-left.btn-handelbay-success.buyer-link{
 }
 
 .handelbay-tradicional-content {
-    background-image: url('<%= asset_path("landing/handelbay/handelbay_fondo_2_porque.png") %>');
+    background-image: url('../../assets/images/landing/handelbay/handelbay_fondo_2_porque.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 500px;

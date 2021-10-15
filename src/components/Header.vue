@@ -27,7 +27,7 @@
                   </h1>
                 </router-link>
               </li>
-              <li class="">
+              <li class="header-list i" v-on:click="classActive('i')">
                 <router-link class="navbar-nav_link" to="/">Inicio</router-link>
               </li>
               <li>
@@ -56,25 +56,25 @@
                   </li>
                 </ul>
               </li>
-              <li>
+              <li class="header-list t" v-on:click="classActive('t')">
                 <router-link class="navbar-nav_link" to="/tarifas">
                   Tarifas
                   <span class="han-sr-only"></span>
                 </router-link>
               </li>
-              <li>
+              <li class="header-list p" v-on:click="classActive('p')">
                 <router-link class="navbar-nav_link" to="/porquehandelbay">
                   ¿Por qué handelbay?
                   <span class="han-sr-only"></span>
                 </router-link>
               </li>
-              <li>
+              <li class="header-list a" v-on:click="classActive('a')">
                 <router-link class="navbar-nav_link" to="/alianzas">
                   Alianzas
                   <span class="han-sr-only"></span>
                 </router-link>
               </li>
-              <li>
+              <li class="header-list b" v-on:click="classActive('b')">
                 <a class="navbar-nav_link" :href="url.blog">
                   Blog
                   <span class="han-sr-only"></span>
@@ -118,6 +118,13 @@
 import global from '@/components/Global.vue'
 
 export default {
+  methods:{
+    classActive: function (clas){
+      $('li.header-list.active').removeClass('active');
+      $("."+clas).addClass('active');
+      $("body").focus();
+    }
+  },
   data(){
     return{
       url: global
@@ -126,3 +133,9 @@ export default {
 }
  
 </script>
+<style>
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f4f8fb;
+    background-color: #e7e7e7;
+}
+</style>

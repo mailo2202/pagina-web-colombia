@@ -284,7 +284,6 @@
       </a>
     </section>
 
-    <!-- <%= render "landing/home/modal_tudemo" %> -->
     <!-- <%= render "landing/home/modal_pdf" %> -->
 
 
@@ -347,7 +346,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import global from '@/components/Global.vue'
 import ModalTuDemo from '@/components/ModalTuDemo.vue'
 import Benefit from "@/components/Benefits.vue"
@@ -357,7 +355,6 @@ import PorqueHandelbay from "@/components/PorqueHandelbay.vue"
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
     ModalTuDemo,
     Benefit,
     Indicator,
